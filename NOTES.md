@@ -4,6 +4,6 @@ Our browser requests an `index.html` file when accessing our application. It spe
 
 The `div` tag included in the body is the DOM node where are react application will be rendered by react DOM.
 
-The `src/` folder is where our applications will be built from.
+The `src/` folder is where our applications will be built from. It contains the `client` and the `server` directories.
 
-To get everything bundled up and built to the public folder, we will need to set up webpack and our build process.
+To get the react app bundled up and built, we will need to set up webpack and our build process.
