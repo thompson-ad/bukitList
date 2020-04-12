@@ -83,3 +83,5 @@ A way to check your project is in a good state.
 ### npm run all
 
 1. `npm install --save-dev npm-run-all`
+
+note: `node -v > .nvmrc` to add an .nvmrc
