@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    // because we're compiling with Babel instead of TypeScript
-    // and we're only using TypeScript for type checking, we'll set "noEmit"
-    // to true so running type checking doesn't generate any files.
+    // Babel is handling transpilation
     "noEmit": true,
-    "baseUrl": "./src"
-  }
+    "baseUrl": "./src",
+    "jsx": "react"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
