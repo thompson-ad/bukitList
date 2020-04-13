@@ -2,9 +2,14 @@
   "compilerOptions": {
     // Babel is handling transpilation
     "noEmit": true,
-    "baseUrl": "./src",
-    "jsx": "react"
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*", "test/*"]
+    },
+    "jsx": "react",
+    "skipLibCheck": true
   },
-  "include": ["src/**/*"],
+  // This allows you to hit f12 and take you to the right file in vscode?
+  "include": ["src/**/*", "test/*"],
   "exclude": ["node_modules", "dist"]
 }
