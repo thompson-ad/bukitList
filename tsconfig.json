@@ -15,7 +15,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "experimentalDecorators": true,
-    "incremental": true,
     "noFallthroughCasesInSwitch": true,
     // Babel is handling transpilation
     "noEmit": true,
