@@ -1,5 +1,22 @@
 {
   "compilerOptions": {
+    "target": "es5", //specify the ECMAScript target version
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // list of library files to be included in the compilation
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "noFallthroughCasesInSwitch": true,
     // Babel is handling transpilation
     "noEmit": true,
     "baseUrl": "./",
